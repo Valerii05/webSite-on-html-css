@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>RFidProjec</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>	
+  
+  <header class="header">
+      <nav class="navigation cont">
+  
+          <div class="logo">
+            <img class="logo__img" src="img/logo.png" alt="Logo">
+            <p class="logo__name m-0 d-none d-md-block">Rfid <br> Data Access</p>
+          </div>
+
+          <div class="header__burger d-block d-md-none">
+            <span></span>
+          </div>
+
+          <div class="menu  d-md-block">
+            <ul class="menu__list m-0">                                                                           
+              <li class="menu__item"><a class="menu__link" href="#">Main </a></li>
+              <li class="menu__item"><a class="menu__link" href="#">How to use</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">User Data</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Read Tag</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Map location</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Contact us </a></li>
+            </ul>
+          </div>
+
+          <div class="login d-none d-md-block">
+            <button class="login__btn btn text-white">Login</button>
+          </div>
+
+      </nav>
+    
+      <div class="cont">
+        <div class="header__content"> 
+          <h1 class="header__title">Get access to your data using your rfid tag</h1>
+          <p class="header__text m-0">Lorem Ipsum is simply dummy text of the printing  and typesetting industry. Lorem Ipsum has been  the 
+            industry's standard dummy text ever since.
+            </p>
+            <div class="buttons">
+              <button class="buttons__btn btn">Try Now</button>
+              <button class="btn">How to Use</button>
+            </div>
+        </div>
+        <p class="lookArrow ">&#8595;</p>
+      </div>
+
+  </header>
+
+  <main>
+
+    <section>
+        <div class="works cont">
+          <h2 class="title">How it work</h2>
+          <p class="sub-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been  the industry's standard dummy text ever since.</p>
+          <div class="row cards">
+             <div class="col-12 card">
+                <img class="card__img" src="img/card_1.png" alt="card_1">
+                <h3 class="card__title">NodeMCU V3</h3>
+                <p class="card__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been  the industry's standard dummy text ever since.</p>
+             </div>
+
+             <div class="col-12 card">
+              <img class="card__img" src="img/card_2.png" alt="card_2">
+              <h3 class="card__title text-uppercase">RFID RC522 +</h3>
+              <p class="card__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been  the industry's standard dummy text ever since.</p>
+             </div>
+             <div class="xl-12 card">
+                <img class="card__img" src="img/card_3.png" alt="card_3">
+                <h3 class="card__title text-uppercase">DISPLAY 1601</h3>
+                <p class="card__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been  the industry's standard dummy text ever since.</p>
+             </div>
+
+            <div class="col-12 card">
+              <img class="card__img" src="img/card_4.png" alt="card_4">
+              <h3 class="card__title text-uppercase">temperature sensor</h3>
+              <p class="card__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been  the industry's standard dummy text ever since.</p>
+            </div>
+          </div>
+
+          <div class="text-center">
+            <button class="buttons__btn btn">Try Now</button>
+          </div>
+       
+        </div>
+    </section>
+
+    <section class="read">
+      <div class="readTag cont">
+        <h2 class="title">Read Tag</h2>
+        <p class="sub-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been  the industry's standard dummy text ever since.</p>
+
+        <div class="row read__card justify-content-between">
+          <div class="col-12 read__person p-0">
+
+            <div class="d-flex justify-content-between read__card-block">
+              <div>
+                <img class="read__person-img" src="img/person.png" alt="person">
+              </div>
+  
+              <div class="read__person-block">
+                <p class="read__person-title">Taras Kovalenko</p>
+                <p class="read__person-email">tkovalenko@guscoll.com</p>
+                <ul class="read__person-list m-0 p-0">
+                  <li class="read__person-item">Gender</li>
+                  <li class="read__person-item">Male</li>
+                  <li class="read__person-item">Age</li>
+                  <li class="read__person-item">18</li>
+                  <li class="read__person-item">Group</li>
+                  <li class="read__person-item">P-31</li>
+                  <li class="read__person-item">Mobile Phone</li>
+                  <li class="read__person-item">+38(096) 5724 135</li>
+                </ul>
+                
+              </div>
+  
+              <div>
+                <img class="sett-icon" src="img//setting.svg" alt="setting">
+                <img class="sett-icon" src="img//bell.svg" alt="bell">
+              </div>
+            </div>
+
+            
+            <div class="text-end details-btn">
+              <button class="buttons__btn btn btn_size m-0">Details</button>
+            </div>
+
+
+          </div>
+          
+          <div class="col-12 read__status ">
+
+            <div class="read__status-cont d-flex justify-content-center">
+              <div class="read__status-block">
+                <p class="read__status-title">Temperature</p>
+                <p class="read__status-template">36.6 °C</p>
+               </div>
+             <div class="read__status-block">
+              <div class="position-relative">
+                <p class="read__status-title">Status</p>
+                <img class="update-img" src="img/update.svg" alt="update">
+              </div>
+
+               <p class="read__status-template">Active</p>
+             </div>
+             
+            </div>
+              
+            <p class="update text-center">Last update: <span>09:25:12 </span> <span> 03.01.2023</span> </p>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section>
+      <div class="map cont mt-4">
+        <h2 class="title">Map location</h2>
+        <p class="sub-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been  the industry's standard dummy text ever since.</p>
+
+      <div class="map__block">
+        <div class="map_location">
+          <iframe width="100%" height="550" id="gmap_canvas" src="https://maps.google.com/maps?q=%D0%93%D1%83%D1%81%D1%8F%D1%82%D0%B8%D0%BD%20%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F%20%D0%A8%D0%B5%D0%B2%D1%87%D0%B5%D0%BD%D0%BA%D0%B0%203&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        </div>
+      </div>
+    </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer">
+      <div class="cont">
+
+        <div class="footer__row row d-flex justify-content-between ">
+
+          <div class="col-12 col-md-4">
+            <div class="logo mb-4">
+              <img class="logo__img lg_img" src="img/logo.png" alt="">
+              <p class="logo__name lg_n m-0">Rfid <br> Data Access</p>
+            </div>
+            <p class="m-0 discribe d-none d-md-flex">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+          </div>
+  
+        
+  
+        <div class="col-12 col-md-4 d-none d-md-flex">
+          <div class="footer__nav">
+            <ul class="footer__list m-0 p-0 ">
+              <li class="footer__item"><a class="footer__link" href="#">Our project</a></li>
+              <li class="footer__item"><a class="footer__link" href="#">Terms of Use</a></li>
+              <li class="footer__item"><a class="footer__link" href="#">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+        
+        
+        <div class="col-12 col-md-4">
+          <div class="follow">
+            <p>Follow us social media</p>
+            <ul class="footer__list d-flex m-0 p-0 justify-content-end">
+              <li><a class="footer__link-social" href="#"><i class="bi fa-lg bi-facebook"></i></a></li>
+              <li><a class="footer__link-social" href="#"><i class="bi fa-lg bi-instagram"></i></a></li>
+              <li><a class="footer__link-social" href="#"><i class="bi fa-lg bi-linkedin"></i></a></li>
+              <li><a class="footer__link-social" href="#"><i class="bi fa-lg bi-twitter"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+        </div>
+        <p class="m-0 text-center discribe">Copyright ⓒ 2022-2023 | All right reserved </p>
+        <p class="m-0 text-center discribe">Development by Valerii Bondarenko</p>
+
+      </div>
+    </div>
+  </footer>
+	<script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
